@@ -35,7 +35,7 @@ var bottom_dc = document.querySelector(".backcontainer .back_d ")
 
 
 
-timer('2021/12/05 10:19:20')
+timer('2022/02/13 10:19:20')
 
 function timer(date){
     var new_date = new Date(date);
