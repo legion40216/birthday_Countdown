@@ -28,17 +28,21 @@
 
 
       body{
-        width: 100%;
+  
+
+}
+
+
+.container{
+  width: 100%;
 height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
 background-image: linear-gradient( 190deg,#191a24 15%,  rgba(27, 47, 65, 0.932) ) ;
 flex-direction: column;
-animation: pulsingbackground 50s ease-in-out infinite;
-
+animation: pulsingbackground 60s ease-in-out infinite;
 }
-
 
 .image_stars{
     position: fixed;
@@ -282,7 +286,7 @@ letter-spacing:3px;
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .topcontainer{
     width: 150px;
 height: 100px;
@@ -333,11 +337,8 @@ animation: none !important;
 }
 }
 
-@media screen and (max-width: 400px){
-  .text{
-  padding-top: 850px;
-}
-}
+
+
 @media screen and (max-width: 330px){
   h2{
   font-size: 50px !important;
@@ -351,13 +352,13 @@ animation: none !important;
 
 </head>
 <body>
-
+<div class="container">
   <div class="image_stars"></div>
 
-   <div class="text">
-     <h2>ITS <span>Ali Mardan</span> BIRTHDAY SOON</h2>
-     <h3>HAPPY BIRTHDAY IN ADVANCE :)</h3>
-  </div>
+  <div class="text">
+    <h2>ITS <span>Summet</span> BIRTHDAY SOON</h2>
+    <h3>HAPPY BIRTHDAY IN ADVANCE :)</h3>
+ </div>
 
 
 
@@ -365,13 +366,13 @@ animation: none !important;
 
 <div class="wrapper">
 <div class="topcontainer">
-  <div class="front front_d"><h1>00</h1></div>
-  <div class = "frontflip frontflip_d"> <h1>00</h1> </div>
+ <div class="front front_d"><h1>00</h1></div>
+ <div class = "frontflip frontflip_d"> <h1>00</h1> </div>
 </div>
 
 <div class="backcontainer">
-  <div class="back back_d"><h1>00</h1></div>
-  <div class = "backflip backflip_d"> <h1>00</h1></div>
+ <div class="back back_d"><h1>00</h1></div>
+ <div class = "backflip backflip_d"> <h1>00</h1></div>
 </div>
 <span>DAYS</span>
 </div>
@@ -379,48 +380,51 @@ animation: none !important;
 
 <div class="wrapper">
 
-  <div class="topcontainer">
-    <div class="front front_h"><h1>00</h1></div>
-    <div class = "frontflip frontflip_h"> <h1>00</h1> </div>
-  </div>
-  
-  <div class="backcontainer">
-    <div class="back back_h"><h1>00</h1></div>
-    <div class = "backflip backflip_h"> <h1>00</h1></div>
-  </div>
-  <span>HOURS</span>
-  </div>
+ <div class="topcontainer">
+   <div class="front front_h"><h1>00</h1></div>
+   <div class = "frontflip frontflip_h"> <h1>00</h1> </div>
+ </div>
+ 
+ <div class="backcontainer">
+   <div class="back back_h"><h1>00</h1></div>
+   <div class = "backflip backflip_h"> <h1>00</h1></div>
+ </div>
+ <span>HOURS</span>
+ </div>
 
-  <div class="wrapper">
+ <div class="wrapper">
 
-    <div class="topcontainer">
-      <div class="front front_m"><h1>00</h1></div>
-      <div class = "frontflip frontflip_m"> <h1>00</h1> </div>
-    </div>
-    
-    <div class="backcontainer">
-      <div class="back back_m"><h1>00</h1></div>
-      <div class = "backflip backflip_m"> <h1>00</h1></div>
-    </div>
-    <span>MINUTES</span>
-    </div>
+   <div class="topcontainer">
+     <div class="front front_m"><h1>00</h1></div>
+     <div class = "frontflip frontflip_m"> <h1>00</h1> </div>
+   </div>
+   
+   <div class="backcontainer">
+     <div class="back back_m"><h1>00</h1></div>
+     <div class = "backflip backflip_m"> <h1>00</h1></div>
+   </div>
+   <span>MINUTES</span>
+   </div>
 
-    <div class="wrapper">
+   <div class="wrapper">
 
-      <div class="topcontainer">
-        <div class="front front_s"><h1>00</h1></div>
-        <div class ="frontflip frontflip_s"> <h1>00</h1> </div>
-      </div>
-      
-      <div class="backcontainer">
-        <div class="back back_s"><h1>00</h1></div>
-        <div class = "backflip backflip_s"> <h1>00</h1></div>
-      </div>
-      <span>SECONDS</span>
-      </div>
+     <div class="topcontainer">
+       <div class="front front_s"><h1>00</h1></div>
+       <div class ="frontflip frontflip_s"> <h1>00</h1> </div>
+     </div>
+     
+     <div class="backcontainer">
+       <div class="back back_s"><h1>00</h1></div>
+       <div class = "backflip backflip_s"> <h1>00</h1></div>
+     </div>
+     <span>SECONDS</span>
+     </div>
 
-    </div>
+   </div>
 
+
+</div>
+ 
     
 <script src="practicejs.js"></script>
 </body>
